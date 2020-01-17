@@ -125,7 +125,8 @@ namespace pure {
         int input_area = input_img.cols * input_img.rows;
 
         // check if we need to shrink input image
-        if (input_area > target_area)
+        // if (input_area > target_area)
+        if (false)
         {
             scaling_factor = sqrt(target_area / (double)input_area);
             // OpenCV docs recommend INTER_AREA interpolation for shrinking images

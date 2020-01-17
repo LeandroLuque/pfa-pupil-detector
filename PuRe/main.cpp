@@ -15,7 +15,7 @@ using namespace cv;
 int main()
 {
 	// VideoCapture cap("../eye_segmentation_500K/p1_image.mp4");
-	VideoCapture cap("/media/pfa/P L/pfa/datasets/LPW/1/1.avi");
+	VideoCapture cap("../LPW/1/1.avi");
 	// VideoCapture cap("../eye0.mp4");
 
 	if (!cap.isOpened())
